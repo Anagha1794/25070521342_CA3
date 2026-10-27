@@ -1,0 +1,11 @@
+{
+  "name": "findmyteam-root",
+  "version": "1.0.0",
+  "description": "FindMyTeam — A Student Collaboration and Team Finder Platform",
+  "scripts": {
+    "start:server": "cd server && node server.js",
+    "start:client": "cd client && npm run dev",
+    "seed": "cd server && node seed.js",
+    "build": "cd client && npm run build"
+  }
+}
